@@ -1,0 +1,35 @@
+<div>
+    <table>
+        <tr>
+            <td>
+                <strong>
+                    Tu eres:
+                </strong>
+            </td>
+            <td>
+                <input type="text" ng-model="nombre" width="100%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>
+                    Veo esto:
+                </strong>
+            </td>
+            <td>
+                <input type="checkbox" ng-model="check" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <strong>
+                    Data : 
+                </strong>
+            </td>
+            <td ng-show="check">
+                {{nombre}}  
+            </td>
+        </tr>
+    </table>
+</div>
+    
